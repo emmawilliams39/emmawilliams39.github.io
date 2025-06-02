@@ -1,11 +1,10 @@
 body {
-  margin: 0px;
+ background-image: url("Brick Wall.jpg");
+ background-repeat: no-repeat; 
+ background-size: 1450px 780px;
 }
 
-canvas {
-  background-color: lightblue;
-  margin: 20px;
-}
+
 
 
 img {
@@ -13,4 +12,3 @@ img {
 }
  
 
- 
