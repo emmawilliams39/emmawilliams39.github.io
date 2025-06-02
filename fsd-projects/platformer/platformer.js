@@ -49,10 +49,10 @@ $(function () {
     createCollectable("flower", 605, 100);
     
     // TODO 4 - Create Cannons
-    createCannon("top", 400, 3000)
-    createCannon("left", 400, 3000)
-    createCannon("top", 1100, 3000)
-    createCannon("right", 250, 3000)
+    createCannon("top", 400, 7000)
+    createCannon("left", 400, 7000)
+    createCannon("top", 1100, 7000)
+    createCannon("right", 250, 7000)
 
     
     
