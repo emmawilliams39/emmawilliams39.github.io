@@ -77,7 +77,7 @@
 			var speed = 10;
 			var positionY = 0;
 			var speedY = 10; 
-			var boardWidth = jQuery(window).height();
+			var boardHeight = jQuery(window).height();
 			
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
@@ -87,7 +87,7 @@
 			function update() { 
 				positionX = positionX + speed;
 				positionY = positionY + speedY;
-				moveBoxTo(positionX, positionX);
+				moveBoxTo(positionX, positionY);
 				if(positionX > boardWidth - 50){
 					speed = -speed;
 				} else if(positionX < 0){
