@@ -102,7 +102,16 @@ var runLevels = function (window) {
       createMarker(900, groundY - 75, -3); 
     function startLevel() {
       // TODO 13 goes below here
+      var level = levelData[currentLevel];
+      var levelObjects = level.gameItems;
+      for(var i = 0; i < levelObjects.length; i++){
+        var element = levelObjects[i]
 
+        if(element.type === sawblade){
+          createSawBlade(element.x, element.y, element.damage);
+          
+        }
+      }
 
 
       //////////////////////////////////////////////
